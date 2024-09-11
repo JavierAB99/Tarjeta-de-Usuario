@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 10px;
+    width: 500px;
+    border-radius: 1%;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.barra{
+    background-color: rgb(0, 132, 255);
+    padding: 50px;
+}
+
+.foto-perfil{
+    margin-top: -50px;
+    margin-left: 50px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px white;
+    overflow: hidden;
+}
+
+.foto-perfil img{
+    margin-left: -45%;
+    margin-top: -70%;
+    width: 200%;
+    height: auto;
+}
+
+.informacion{
+    margin: 20px;
+    color: rgb(150, 150, 150);
+}
+
+.nombre{
+    margin: 20px;
+    color: rgb(75, 75, 75);
+}
+
+.ubicacion{
+    font-size: 110%;
+    margin: 20px;
+    color: rgb(100, 100, 100);
+}
+
+.ocupacion, .descripcion{
+    margin: 20px;
+}
+
+.editar-perfil{
+    margin: 20px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
+}
